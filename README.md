@@ -17,10 +17,6 @@ Fuente de datos
 
 ENAHO 2025 — Encuesta Nacional de Hogares sobre Condiciones de Vida y Pobreza
 
-Instituto Nacional de Estadística e Informática (INEI)
-
-Disponible en: https://www.datosabiertos.gob.pe/
-
 Estructura del repositorio
 
 proyecto/
@@ -50,11 +46,6 @@ Para reproducir el análisis:
 r# 1. Restaurar el entorno de paquetes
 renv::restore()
 
-# 2. Colocar los módulos ENAHO descargados en datos/crudos/
-
-# 3. Ejecutar los scripts en orden
-source("00_estructura.R")
-source("01_carga_union.R")
 
 Variables principales
 
@@ -72,4 +63,3 @@ ESTRSOCIAL - Sumaria - Estrato socioeconómico (A–E, Rural)
 Autora: María Alejandra Ponce de León Gamarra
 Pontificia Universidad Católica del Perú
 Curso: SOC 285 — Estadística para el Análisis Sociológico 2
-Docente: Prof. José Luis Incio
